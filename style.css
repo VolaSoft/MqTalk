@@ -1,0 +1,154 @@
+body{
+	margin:0;
+	padding:0;
+	color:#DBDBEA;
+	background-image:url(images/banner3.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:top;
+	background-size:cover;
+	font-family:calibri;
+}
+#container{
+	left:0;
+	top:103x;
+	position:relative;
+	width:100%;
+	height:80%;
+	background-color:rgba(55,55,55,0.5);
+	overflow-y:scroll;
+	clear:both;
+	margin-top:103px;
+	margin-bottom:30px;
+	
+}
+#header{
+	position: fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:103px;
+	line-height: 0px;
+	background-color:rgba(0,0,0,1);
+	color:#ffffff;
+	text-align:left;
+	z-index:999999;
+}
+h1{
+	color:#000;
+	text-shadow:0px 0px 2px #fff;
+}
+#footer{
+	position: fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	height:51px;
+	line-height: 10px;
+	background-color:rgba(0,0,0,0.8);
+	color:#dddddd;
+	text-align:left;
+	z-index:999999;
+}
+.wrapper{
+	clear:both;
+	position:relative;
+	border:0px solid #aaa;
+	padding:0;
+	margin:0;
+}
+.bubble{
+	display:inline-block;
+	background-color:rgba(50,50,50,0.8);
+	color:#fff;
+	text-shadow:1px 0px 1px #222222;
+	width:auto;
+	height:auto;
+	max-width:70%;
+	border-radius:10px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin:5;
+	border:0px solid #FFFFFF;
+	font-family:"calibri";
+	font-size:12px;
+	box-shadow:0px 1px 1px #000;
+}
+
+.myself{
+	text-align:right;
+	border-radius:50px 0px 0px 50px;
+}
+.correspondent{
+	text-align:left;
+	border-radius:0px 50px 50px 0px;
+	float:left;
+}
+#sendButton{
+	height:46px;
+	width:18%;
+	border-radius:2px;
+	background-color:#333;/*#238C00;*/
+	border:0px solid #fff;
+	color:#ddd;
+	font-weight:bold;
+	margin-top:2px;
+}
+#connect_Button{
+	height:41px;
+	width:100px;
+	border-radius:2px;
+	background-color:#333;/*#238C00;*/
+	border:0px solid #fff;
+	color:#ddd;
+	font-weight:bold;
+	margin-top:2px;
+}
+#idClient{
+	height:41px;	
+	border-radius:2px;
+	background-color:#ffffff;
+	text-align:center;
+	border:0px solid #fff;
+	color:#444;
+	font-weight:bold;
+	margin-top:2px;
+}
+#sendText{
+	float:left;
+	height:46px;
+	width:80%;
+	border-radius:2px;
+	font-weight:bold;
+	font-family:"calibri";
+	font-size:14px;
+	margin-top:2px;
+	margin-right:4px;
+	border:1px solid #cc6633;/*#238C00;*/
+	padding-left:12px;
+	padding-right:12px;
+	color:#444;
+}
+#info {
+	margin-top:8px;
+	background-color:rgba(0,0,0,0.8);/*#313140;*/
+	position:relative;
+}
+#state{
+	color:#FFFF99;
+	font-size:12px;
+	display:inline-block;
+}
+#loadingImage{
+	width:40px;
+	height:40px;
+	text-align:center;
+	display:none;
+}
+#messageClientId{
+	color:#cc6633;
+	font-size:10px;
+	font-family:"comic sans ms"; 
+}

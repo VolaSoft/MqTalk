@@ -1,0 +1,72 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0">
+	<meta name='apple-mobile-web-app-capable' content='yes' />
+	<meta name='apple-mobile-web-app-status-bar-style' content='black-translucent' />
+	<!--Descriptions-->
+		<meta name="Author" content="ANDRIAFARALOVA Degisth" />
+		<meta name="Keywords" content="HTML5&nbsp;javascript&nbsp;MQTT&nbsp;Chat&nbsp;MQTALK&nbsp;mqtalk" />
+		<meta name="Description" content="Chat application using MQTT Protocol" />
+	<title>MqTalk Project</title>
+	<link type="text/css" rel="stylesheet" href="style.css" />
+	<!--LIBRARY-->
+		<script type="text/javascript" src="library/mqttws31.js"></script>
+</head>
+<body>
+	
+	<div id="header">
+	
+		<h1>M Q - T A L K</h1><br /><small><small> &copy <small><small> 2016 | By ANDRIAFARALOVA DEGISTH | Zhejiang Normal University</small></small></small></small>
+		
+		<!-- STATE -->
+		<div id="info">
+			<table>
+				<tr>
+					<td>
+						
+						<input type="text" id="idClient" name="idClient" placeholder="Your Name">
+						
+						<img id="loadingImage" src="images/loading3.gif">
+					</td>
+					
+					<td>
+						<button id="connect_button" class="button function" onClick="start();">Connect</button>
+					</td>
+					<td>
+						<span id="state"></span>
+					</td>	
+				</tr>
+			</table>
+					
+		</div>
+	</div>
+	
+	
+	<div id="container">
+		
+		
+		
+		
+				<!-- MESSAGE CONTENT Correspandent-->
+			
+
+		
+				<!-- MESSAGE CONTENT Myself-->
+			
+		
+		<!-- xxx -->
+		
+	</div>
+		
+	<div id="footer">
+		
+		<input type="text" id="sendText" autofocus/>
+		<button id="sendButton" onClick="send_message('sendText');">Send</button>
+		
+	</div>
+	<br />
+<!--My SCRIPT-->
+<script type="text/javascript" src="mqTalkScript.js"></script>   
+</body>
+</html>
